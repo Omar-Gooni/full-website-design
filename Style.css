@@ -1,0 +1,426 @@
+*{
+    margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; 
+  }
+  body{
+    scroll-behavior: smooth;
+      overflow-x: hidden;
+      /* background: red; */
+  }
+  /* Header style */
+  header .heading{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    flex-wrap: wrap;
+  }
+  header .heading menu a{
+    padding: 2px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+  }
+  header .heading .btn button{
+    padding: 8px 20px;
+    color: white;
+    background:rgb(65, 27, 160);
+    border: none;
+  }
+  /* Main style */
+
+
+  /* home style */
+  main .Home{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 7%;
+    flex-wrap: wrap;
+  }
+ main .Home .content h1{
+    margin-bottom: 4%;
+ }
+ main .Home .content p{
+    line-height: 1.5;
+ }
+ main .Home .imges{
+ background: rgba(212, 155, 116, 0.564);
+    padding: 25px;
+ }
+ /* shop style */
+ main .shop{
+   margin-top: 10%;
+   
+ }
+ main .shop h1{
+   text-align: center;
+   margin-bottom: 10%;
+ }
+ main .shop .boxes1{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   row-gap: 50px;
+   column-gap: 50px;
+ }
+ main .shop .boxes1 .box{
+    background:rgb(65, 27, 160);
+    height: 350px;
+    width: 270px;
+ }
+ main .shop .boxes1 .box .imges{
+    background: rgb(243, 200, 172);
+    width: 130px;
+    height: 120px;
+    margin-left: 5%;
+    margin-top: 3%;
+   
+
+ }
+ main .shop .boxes1 .box .imges img{
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+ }
+ main .shop .boxes1 .box .btn1 button{
+    background: black;
+    color: white;
+    padding: 5px 20px;
+ }
+ main .shop .boxes1 .box h3 ,  main .shop .boxes1 .box span ,  main .shop .boxes1 .box p{
+   color: white;
+   margin-left: 5%;
+   margin-top: 2%;
+   
+ }
+ main .shop .boxes1 .box span {
+   display: block;
+ }
+ main .shop .boxes1 .box p{
+   margin-top: 20%;
+   line-height: 1.5;
+   font-size: 10px
+ }
+ main .shop .boxes1 .box .btn2{
+   margin-top: 7%;
+   margin-left: 5%;
+ }
+ main .shop .boxes1 .box .btn2 button{
+   padding: 5px 20px;
+   background: black;
+   color: white;
+   border: none;
+ }
+
+ /* new-Arrive style */
+
+ main .new-Arrive{
+   margin-top: 10%;
+ }
+ main .new-Arrive h1{
+   text-align: center;
+   margin-bottom: 3%;
+ }
+ main .new-Arrive .Card{
+   display: flex;
+   justify-content: space-around;
+   background:rgb(65, 27, 160);
+   width: 80%;
+   height:350px;
+   margin-left: 8%;
+   flex-wrap: wrap;
+
+ }
+ main .new-Arrive .imges{
+   background: rgb(243, 200, 172);
+   width: 330px;
+   height: 240px;
+   margin-top: 5%;
+ }
+ main .new-Arrive .imges img{
+   margin-left: 10%;
+ }
+ main .new-Arrive .Card .content {
+   margin-top: 5%;
+ }
+ main .new-Arrive .Card .content h2 ,  main .new-Arrive .Card .content span ,  main .new-Arrive .Card .content p{
+   color: white;
+   
+ }
+ main .new-Arrive .Card .content p{
+   font-size: small;
+   line-height: 1.5;
+   margin-top:20%;
+ }
+ main .new-Arrive .Card .content span{
+   margin-top: 10%;
+   display: block;
+ }
+ main .new-Arrive .Card .content .btn3 button{
+   background: rgba(28, 27, 27, 0.829);
+   color: white;
+   padding: 8px 40px;
+   border: none;
+   margin-top: 10%;
+ }
+
+/* About Style */
+
+main .About{
+   margin-top: 10%;
+}
+main .About h1{
+   text-align: center;
+   margin-bottom: 5%;
+   margin-right: 3%;
+}
+main .About .Cards{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+main .About .Cards .imges{
+   background: rgb(243, 200, 172);
+   width: 330px;
+   height: 240px;
+
+}
+main .About .Cards .imges img{
+   margin-left: 10%;
+}
+main .About .Cards .content h1{
+   margin-bottom: 5%;
+}
+main .About .Cards .content p{
+   line-height: 1.5;
+}
+main .About .Cards .content .btn4 button{
+padding: 10px 40px;
+margin-top: 5%;
+border: none;
+color: white;
+background:rgb(65, 27, 160);
+}
+ 
+/* Contect style */
+main .contact-us{
+   margin-top: 10%;
+}
+main .contact-us h1{
+ text-align: center;
+ margin-bottom: 5%;
+ margin-right: 5%;
+}
+main .contact-us .Cards{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+main .contact-us .Cards .card-1 input , main .contact-us .Cards .card-1 button{
+ display: block;
+ margin-top: 10%;
+}
+main .contact-us .Cards .card-1 input{
+   height: 50px;
+   width: 250px;
+}
+main .contact-us .Cards .card-1 button{
+   height: 50px;
+   width: 250px;
+   background:rgb(65, 27, 160);
+   color: white;
+}
+main .contact-us .Cards .card-2 img{
+   height: 230px;
+   width: 400px;
+   margin-top: 5%;
+   margin-right: 8%;
+}
+
+/* Footer */
+ footer{
+   margin-top: 10%;
+ }
+footer .footer-1{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+footer .footer-1 .our-company h2{
+   margin-bottom: 10%;
+}
+footer .footer-1 .our-company p{
+   line-height: 1.5;
+   font-size: small;
+}
+footer .footer-1 .links menu a{
+   display: block;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   padding-top: 10px;
+}
+footer .footer-1 .links h2{
+   margin-bottom: 10%;
+}
+ footer .footer-1 .links menu a:hover{
+   color: rgba(32, 32, 32, 0.804);
+}
+footer .footer-1 .Social-media .facebook{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+footer .footer-1 .Social-media h2{
+   margin-bottom: 10%;
+}
+footer .footer-1 .Social-media .instagram{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin-top: 5%;
+}
+footer .footer-1 .Social-media .tiktok{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin-top: 5%;
+}
+
+/* responsive   screen 1024px*/
+
+@media screen and (max-width: 1024px){
+
+ 
+}
+
+/* responsive screen 768ox */
+
+@media screen and (max-width: 768px){
+
+header .heading .snearker{
+   margin-top: 2%;
+}
+header .heading .snearker h2{
+  font-size: small;
+ 
+}
+header .heading{
+   margin-right: 10%;
+}
+header .heading .btn {
+   margin-left: 5%;
+}
+header .heading .btn button{
+   padding: 5px 5px;
+   color: white;
+   background:rgb(65, 27, 160);
+   border: none;
+   height: 40px;
+   width: 80px;
+ }
+ header .heading menu{
+   margin-top: 1%;
+ }
+ header .heading menu a{
+   padding: 0px  2px;
+ }
+main .Home .imges{
+   margin-top: 5%;
+}
+main .new-Arrive .Card .content{
+   margin-right: 50%;
+}
+main .new-Arrive .imges{
+   background: rgb(243, 200, 172);
+   width: 230px;
+   height: 150px;
+   margin-top: -35%;
+   margin-left: 47%;
+ }
+ main .new-Arrive .imges img{
+  width: 100%;
+  height: 140px;
+  width: 140px;
+ 
+ }
+ main .About .Cards .content{
+   margin-top: 5%;
+ }
+ footer .footer-1 .our-company{
+   width: 100%;
+   margin-left: 15%;
+   margin-bottom: 5%;
+ }
+ footer .footer-1 .our-company h1{
+text-align: center;
+ }
+}
+
+/* responsive screen 480px */
+
+@media screen and (max-width: 480px) {
+   body{
+      margin-left: 2%;
+   }
+   header .heading .snearker h2{
+      font-size: 1.5em;
+   }
+   main .new-Arrive .imges{
+      background: rgb(243, 200, 172);
+      width: 100px;
+      height: 60px;
+      margin-top: -35%;
+      margin-left: 47%;
+    }
+    main .new-Arrive .imges img{
+     width: 100%;
+     height: 50px;
+     width: 70px;
+    
+    }
+    main .new-Arrive .Card .content .btn3 button{
+      background: rgba(28, 27, 27, 0.829);
+      color: white;
+      padding: 8px 10px;
+      border: none;
+      margin-top: 10%;
+    }
+    main .new-Arrive .Card .content {
+      margin-left: 5%;
+    }
+   header .heading .btn{
+      margin-top: 5%;
+   }
+    header .heading .btn button{
+      padding: 5px 5px;
+      color: white;
+      background:rgb(65, 27, 160);
+      border: none;
+      height: 40px;
+      width: 150px;
+     
+    }
+    header .heading menu{
+      margin-top: 4%;
+    }
+    header .heading menu a{
+      padding: 0px  4px;
+      font-weight: 600;
+    }
+    main .contact-us .Cards .card-1 input{
+      height: 30px;
+      width: 180px;
+   }
+   main .contact-us .Cards .card-1 button{
+      height: 30px;
+      width: 180px;
+     
+   }
+   main .About .Cards .content .btn4{
+      margin-left: 2%;
+      
+   }
+}
+
+
